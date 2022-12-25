@@ -1,0 +1,57 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+
+
+/*untuk bagian dashboard NAVBAR dan FOOTER*/
+body {
+    background-size: cover;
+    font-weight: medium;
+    font-family: 'Poppins' sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DDF0DF;
+}
+.navbar {
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.navbar-nav>li {
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: black;
+}
+
+
+/*CARD PROFILE INFORMATION*/
+.fotoakun{
+    background-image: url('/images/mountain.jpeg');
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.isigambarakun h3{
+    margin-left: 20px;
+    color: white;
+}
+
+.myclass{
+    background: #D9D9D9;
+    border: 1px solid #77D781;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+}
+.mydesc{
+    height: 135px;
+    background: #EBEBEB;
+    border: 1px solid #77D781;
+    box-shadow: 0px 4px 4px #999999;
+    border-radius: 9px;
+    margin-bottom: 40px;
+}
+
+
+/*COURSE PROFILE INFORMATION*/

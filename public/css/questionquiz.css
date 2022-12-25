@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+body{
+    font-family:'Poppins', sans-serif;
+    font-weight: medium;
+    background-color: #DDF0DF;
+}
+h3{
+    background-color: #FFFF;
+    margin-left: 8%;
+    border-radius: 15px;
+}
+h3 span{
+    color: #94EF9D;
+    margin: 0 5%;
+}
+.row .col-10 {
+    background-color:#FFFF;
+    border-radius: 20px;
+}
+.col-10 .number{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    padding: 2%;
+}
+.choice .choose{
+    display: flex;
+    justify-content: left;
+    
+}
+.choice .choose h6{
+    padding: 0 2%;
+    font-size: x-large;
+}
+.question h5 span{
+    background-color: #94EF9D;
+}

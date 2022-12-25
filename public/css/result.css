@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+body{
+    font-family:'Poppins', sans-serif;
+    font-weight: medium;
+    background-color: #DDF0DF;
+    /* background-color: aqua; */
+}
+.navbar{
+    color: #59805D;
+}
+.navbar h6{
+    
+}
+.navbar .account {
+    width: 15%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img{
+    max-width: 30%;
+}
+.container-xxl .col-5{
+    background-color: #FFFF;
+    height: 100vh;
+    border-top-right-radius:25px ;
+    border-bottom-right-radius:25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-xxl .col-5 img{
+    height: 70%;
+    width: 75%;
+}
+.container-xxl .col-7{
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    padding-left: 5%;
+    align-items: center;
+}
+.container-xxl .col-7 h1{
+    color: #59805D;
+    font-weight: bolder;
+}
+.container-xxl .col-7 h1 span, .container-xxl .col-7 h1 .btn{
+    color: black;
+}
+.container-xxl .col-7 table{
+    border-radius: 15px;
+    background-color: #77D781;
+}
+.container-xxl .col-7 table tbody{
+    background-color: #ffff;
+    border-radius: 15px;
+    font-size:200% ;
+}
+.container-xxl .col-7 .btn-left{
+    background-color: #ffff;
+    border-radius: 25px;
+    font-weight: boldER;
+}
+.container-xxl .col-7 .btn-right .btn{
+    color: #8E8E8E;
+    border-radius: 25px;
+}

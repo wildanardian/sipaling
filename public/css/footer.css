@@ -1,0 +1,55 @@
+
+.footer {
+    bottom: 0;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+ul>li {
+    padding: 4px;
+    color: #8E8E8E;
+}
+
+ul>li:hover {
+    color: #94EF9D;
+    cursor: pointer
+}
+
+hr {
+    border-width: 3px
+}
+
+.card {
+    padding: 2% 7% 1% 7%;
+}
+
+.social>i {
+    padding: 1%;
+    font-size: 15px
+}
+
+.social>i:hover {
+    color: #94EF9D;
+    cursor: pointer
+}
+
+.policy,
+i {
+    font-weight: 700;
+    align-items: center;
+    padding: 4px
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: black
+}
+
+.divider {
+    border-top: 2px solid
+}

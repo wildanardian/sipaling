@@ -1,0 +1,39 @@
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: #DDF0DF;
+}
+
+.bagianlogin{
+    width:100%;
+    height:100vh;
+}
+.lingkaranbuaticon{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.textnya{
+    margin-top: 15px;
+}
+.cover{
+    width: 100%;
+    height: 100vh; 
+}
+
+#button-login {
+    background-color: #94EF9D;
+    border-radius: 20px;
+    width: 100px;
+}
+
+#gambar {
+    width: 400px;
+    height: 500px;
+}
+
+#back_to, #go_to {
+    text-decoration: none;
+    color: black;
+}
